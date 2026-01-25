@@ -1,0 +1,230 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    background-color: #D7D9D7;
+}
+#header {
+    display: flex;
+    height: 5rem;
+}
+#header-img {
+    height: 5rem;
+    width: 21rem;
+    max-width: 25rem;
+    margin-top: 0.5rem;
+    margin-left: 1.5rem;
+}
+.logo {
+    margin-right: 50rem;
+}
+#nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 0rem 1rem 0rem 1rem;
+}
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    width: max-content;
+}
+#feature-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 2rem 1rem 2rem 1rem;
+
+}
+.icon {
+    font-size: 4rem;
+    color: orange;
+    margin: 0rem 2.5rem 0rem 2.5rem;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feature_show {
+    margin-left: 6rem;
+    display: flex;
+    margin-right: 6rem;
+}
+.feature_show:hover {
+    border: 2px solid silver;
+    border-radius: 1rem;
+}
+#content-heading {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    font-weight: bold;
+}
+.content {
+    font-size: 1.25rem;
+}
+#video_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#video {
+    height: 25rem;
+    width: 40rem;
+}
+#video-heading {
+    font-family: cursive;
+    margin-left: 10rem;
+    font-size: 3rem;
+    margin-top: 3   rem;
+}
+#price-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    font-weight: light;
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.price-container:hover {
+    border: 1.5px solid black;
+}
+.price-container {
+    height: 40rem;
+    width: 27rem;
+    background-color: #F7EBE8;
+    border-radius: 1rem;
+}
+.price-heading{
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.price-image-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price-image {
+    height: 15rem;
+    width: 20rem;
+}
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+.price-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    width: 27rem;
+    text-align: center;;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.select {
+    height: 3rem;
+    width: 7rem;
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: #F9E900;
+}
+.select:hover {
+    background-color: gold;
+    cursor: pointer;
+}
+
+
+@media (max-width: 600px) {
+    header {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 650px) {
+    .logo {
+        margin-top: 15px;
+        width: 100%;
+        position: relative;
+    }
+}
+@media (max-width: 650px) {
+    .logo>img {
+        margin: 0 auto;
+    }
+}
+@media (max-width: 650px) {
+    nav {
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0 50px;
+    }
+
+@media (max-width: 650px) {
+    nav>ul {
+        flex-direction: column;
+    }
+}
+@media (max-width: 650px) {
+    #hero {
+        margin-top: 120px;
+    }
+}
+@media (max-width: 550px) {
+    #features .icon {
+        display: none;
+    }
+}
+@media (max-width: 550px) {
+    #features .desc {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        height: 150px;
+    }
+}
+@media (max-width: 650px) {
+    #features {
+        margin-top: 0;
+    }
+}
+@media (max-width: 800px) {
+    #pricing {
+        flex-direction: column;
+    }
+
+    .product {
+        max-width: 300px;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+}
+}
