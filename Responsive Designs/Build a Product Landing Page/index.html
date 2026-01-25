@@ -16,6 +16,7 @@
             <a href="#Features" class="nav-link">Features</a>
             <a href="#How_It_Works" class="nav-link">How It Works</a>
             <a href="#Pricing" class="nav-link">Pricing</a>
+            <a href="#Contact_Us" class="nav-link">Contact Us</a>
         </nav>
     </header>
     <main>
@@ -87,13 +88,36 @@
             </div>
             
         </div>
-        <div id="Place_An_Order">
+        <div id="Contact_Us">
+            <p class="contact-heading">Contact Us</p>
             <form action="https://www.freecodecamp.org/email-submit" id="form">
-                <label for="email">Enter Your Email: </label><input type="email" id="email" placeholder="Enter Email" name="email">
-                <input type="submit" id="submit" >
+                <div class="form">
+                    <span>
+                        <label for="name" class="contact">Enter Name: </label><input type="text" placeholder="Enter Name" class="contact-input">
+                    </span>
+                    <span>
+                        <label for="email" class="contact">Enter Your Email: </label><input type="email" id="email" placeholder="Enter Email" name="email" class="contact-input">
+                    </span>
+                    <span>
+                        <label for="query" class="contact">Enter Query: </label><textarea name="query..." id="query" placeholder="Enter your query...." class="contact-query"></textarea>
+                    </span>
+                    <input type="submit" id="submit">
+                </div>
             </form>
         </div>
     </main>
+    <footer>
+        <div class="disc-container">
+            <div class="disc-link-container">
+                <a href="#" class="disc-link">Privacy</a>
+                <a href="#" class="disc-link">Terms & Conditions</a>
+                <a href="#" class="disc-link">License</a>
+            </div>
+            <div id="copyright-container">
+                <p>Copyright <i class="ri-copyright-line"></i> 2016, Original Trombones</p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

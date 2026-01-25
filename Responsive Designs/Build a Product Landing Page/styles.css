@@ -17,7 +17,7 @@ html, body {
     margin-left: 1.5rem;
 }
 .logo {
-    margin-right: 50rem;
+    margin-right: 45rem;
 }
 #nav-bar {
     display: flex;
@@ -157,8 +157,93 @@ html, body {
     background-color: gold;
     cursor: pointer;
 }
+.contact-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    font-size: 3rem;
+}
+.form {
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    height: 25rem;
+    width: 40rem;
+    margin-left: 26rem;
+    margin-bottom: 5rem;
+    background-color: #CCC9E7;
+    border-radius: 1rem;
+}
+.form:hover {
+    border: 1px solid black;
+}
+.contact {
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+}
+.contact-input {
+    border: none;
+    height: 1.5rem;
+    margin-left: 1rem;
+    width: 35rem;
+    height: 2rem;
+    border-radius: 1rem;
+    padding-left: 2rem;
+}
+.contact-query {
+    border: none;
+    height: 1.5rem;
+    margin-left: 1rem;
+    width: 35rem;
+    height: 7rem;
+    border-radius: 1rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+span {
+    margin-bottom: 1rem;
+}
+#submit {
+    height: 3rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1rem;
+    background-color: #E5E7E6;
+
+}
+#submit:hover {
+    background-color: #91AEC1;
+    cursor: pointer;
+}
+.disc-container {
+    background-color: grey;
+    padding: 0.5rem 1rem 1rem 0.5rem;
+}
+.disc-link {
+    text-decoration: none;
+    color: black;
+}
+.disc-link-container {
+    display: flex;
+    justify-content: right;
+    gap: 2rem;
+    font-size: 1.15rem;
+}
+#copyright-container {
+    display: flex;
+    justify-content: right;
+}
 
 
+
+
+
+
+
+
+/* Media Queries */
 @media (max-width: 600px) {
     header {
         flex-wrap: wrap;
